@@ -1,0 +1,15 @@
+{
+  "authEndpoint" : "https://ORGNAME-ENVNAME.apigee.net/BASEPATH/oauth2/auth",
+  "sessionApi" : {
+    "endpoint" : "https://ORGNAME-ENVNAME.apigee.net/BASEPATH/session",
+    "apikey" : "APIKEY_HERE"
+  },
+  "usergrid" : {
+    "org": "USERGRID_ORG",
+    "app" : "USERGRID_APP",
+    "id" : "USERGRID_APP_CLIENT_ID",
+    "secret" : "USERGRID_APP_CLIENT_SECRET"
+  },
+  "localUserDb" : "../config/localUserDb.js",
+  "authSystem" : "local"
+}
